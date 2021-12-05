@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 6073714289390121206}
   - component: {fileID: 3820702837262376246}
   m_Layer: 0
-  m_Name: Grass_Sprite
-  m_TagString: Grass
+  m_Name: pGrass_Tile
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71,12 +71,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3222170fb26de894c97918b1d0251977, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 742ab554ab6b81f42b9305a0b44e4cfc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.984375, y: 0.984375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

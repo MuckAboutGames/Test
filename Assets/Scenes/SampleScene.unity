@@ -236,8 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1fd199bdf5628f4d9cc2ef0d924513e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  closestEnemy: {fileID: 0}
-  enemeyContact: 0
+  timerMax: 0.2
 --- !u!212 &1669832791
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -333,7 +332,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ef15cc6b984a0f46bbb9375b23dc4e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPrefab: {fileID: 5933262460905126347, guid: ae9c97785ba3015498a0f695cdc21254, type: 3}
 --- !u!4 &1761626786
 Transform:
   m_ObjectHideFlags: 0

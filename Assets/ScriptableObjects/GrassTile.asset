@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17056b287956e4489c3bd9f821c9dc8, type: 3}
+  m_Name: GrassTile
+  m_EditorClassIdentifier: 
+  nameString: Grass Tile
+  isFarmable: 1
+  tileSprite: {fileID: 6073714289390121206, guid: ae9c97785ba3015498a0f695cdc21254, type: 3}
+  vegetationSprite: {fileID: 5458350707227354089, guid: c83234685a671e74bad7221a8ccdb546, type: 3}

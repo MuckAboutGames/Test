@@ -24,13 +24,13 @@ public class FarmerBehavior : MonoBehaviour
         target = getClosestEnemy().position;
 
         // move sprite towards the target location
+    
         transform.position = Vector2.MoveTowards(transform.position, target, step);
     }
-
-
+    
     public Transform getClosestEnemy()
     {
-        multipleObjects = GameObject.FindGameObjectsWithTag("Grass");
+        multipleObjects = GameObject.FindGameObjectsWithTag("Tile");
         float closestDistance = Mathf.Infinity;
         Transform trans = null;
 
@@ -56,7 +56,9 @@ public class FarmerBehavior : MonoBehaviour
                 }
             }
         }
-        
         return trans;
     }
 }
+
+
+   
