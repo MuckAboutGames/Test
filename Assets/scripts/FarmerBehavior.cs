@@ -10,6 +10,7 @@ public class FarmerBehavior : MonoBehaviour
     private GameObject[] multipleObjects;
 
     float timer = 0.0f; // begins at this value
+   [SerializeField]
     float timerMax = 1.0f; // event occurs at this value
 
     void Start()
